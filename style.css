@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom, #1a1a1a, #2c2c2c);
+  color: #f0f0f0;
+}
+
+a {
+  color: #90caf9;
+}
+
+.template-link {
+  background-color: #263238;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+header {
+  background: #880e4f;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  animation: slideDown 1s ease;
+}
+
+#welcomeMessage {
+  background-color: #ffeb3b;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeIn 1.5s ease;
+}
+
+.media-section, .quiz-section, .image-gallery {
+  padding: 30px;
+  text-align: center;
+  animation: fadeInUp 1.2s ease;
+}
+
+iframe {
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1em;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #00c853;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00b342;
+}
+
+.image-gallery img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: #212121;
+  text-align: center;
+  padding: 15px;
+  color: #ccc;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from { transfo
